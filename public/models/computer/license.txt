@@ -1,0 +1,11 @@
+Model Information:
+* title:	MIGRATING FROM sketchfab TO FAB
+* source:	https://sketchfab.com/3d-models/migrating-from-sketchfab-to-fab-4358399c3b904190b9fa570d2c8a6019
+* author:	OSCAR CREATIVO (https://sketchfab.com/oscar_creativo)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "MIGRATING FROM sketchfab TO FAB" (https://sketchfab.com/3d-models/migrating-from-sketchfab-to-fab-4358399c3b904190b9fa570d2c8a6019) by OSCAR CREATIVO (https://sketchfab.com/oscar_creativo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
