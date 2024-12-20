@@ -49,17 +49,6 @@ scene.add(light);
  * Objects 
  */
 
-// temp object
-
-
-const sphere = new THREE.Mesh(
-  new THREE.SphereGeometry(0.5, 32, 32),
-  new THREE.MeshStandardMaterial({ color: 0xff0000 })
-);
-sphere.position.x = 1.5;
-sphere.position.y = 3.5;
-scene.add(sphere)
-
 // Temporary Computer Model (from SketchFab ni)
 gltfLoader.load(
   '/models/computer/scene.gltf',
@@ -95,5 +84,3 @@ window.addEventListener('resize', () => {
   renderer.setSize(window.innerWidth, window.innerHeight);
 });
 
-// git config --global user.name "Kian"
-// git config --global user.email "kians3ra@gmail.com"
