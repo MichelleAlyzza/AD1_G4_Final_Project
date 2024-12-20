@@ -1,17 +1,40 @@
 {
-  "name": "final-project",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "vite": "^6.0.1"
-  },
-  "dependencies": {
-    "three": "^0.171.0"
+    "name": "final-project",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview",
+      "clean": "rm -rf dist",
+      "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
+      "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,json,css,md}'"
+    },
+    "dependencies": {
+      "three": "^0.171.0"
+    },
+    "devDependencies": {
+      "vite": "^6.0.1",
+      "eslint": "^8.51.0",
+      "prettier": "^3.0.0"
+    },
+    "eslintConfig": {
+      "env": {
+        "browser": true,
+        "es2021": true
+      },
+      "extends": ["eslint:recommended"],
+      "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+      },
+      "rules": {}
+    },
+    "prettier": {
+      "semi": true,
+      "singleQuote": true,
+      "trailingComma": "all"
+    }
   }
-}
+  
